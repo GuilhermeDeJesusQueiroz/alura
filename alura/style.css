@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Degradê em tons de rosa e pêssego */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #ff6b6b; /* Título em vermelho vibrante */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#story-text {
+    margin: 20px 0;
+    font-size: 1.3em;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.story-button {
+    padding: 12px 24px;
+    background-color: #f77f00; /* Botões laranja */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.story-button:hover {
+    background-color: #d04f3d; /* Laranja mais escuro ao passar o mouse */
+}
+
+#story-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: block;
+}
